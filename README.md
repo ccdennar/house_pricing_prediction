@@ -19,19 +19,33 @@ The Ames Housing dataset contains 80 features (numerical and categorical) and th
 ## Project Structure
 
 house-price-prediction/
+
 ├── data/
+
 │   ├── raw/
+
 │   │   └── housing_data.csv    # Raw dataset
+
 │   ├── processed/
+
 │   │   └── cleaned_housing_data.csv    # Preprocessed dataset (generated)
+
 ├── models/
+
 │   └── linear_regression_model.pkl    # Trained model (generated)
+
 ├── notebooks/
+
 │   └── eda.ipynb                    # EDA notebook
+
 ├── src/
+
 │   ├── preprocess.py                # Preprocessing script
+
 │   ├── model.py                     # Modeling script
+
 ├── requirements.txt                 # Python dependencies
+
 └── README.md                        # Project documentation
 
 
