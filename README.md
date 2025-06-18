@@ -21,7 +21,7 @@ The Ames Housing dataset contains 80 features (numerical and categorical) and th
 house-price-prediction/
 
 ├── data/
-|
+
 │   ├── raw/
 │   │   └── housing_data.csv    # Raw dataset
 
@@ -33,7 +33,7 @@ house-price-prediction/
 
 ├── notebooks/
 │   └── eda.ipynb                    # EDA notebook
-|
+
 ├── src/
 │   ├── preprocess.py                # Preprocessing script
 │   ├── model.py                     # Modeling script
